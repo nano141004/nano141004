@@ -60,7 +60,7 @@ My north star is contributing to AGI by building systems that are reliable, unde
 | **IDX Stock Return Prediction** | TCN-based intraday forecasting over Indonesian stock-market data with feature engineering and validation calibration. | Deep learning, finance |
 | **Partial Spoof Audio Detection** | Deep learning system for detecting synthetic regions in partially spoofed speech audio. | Speech, AI research |
 | [**CustomChessKell**](https://github.com/nano141004/CustomChessKell) | Configurable chess engine in Haskell that interprets custom piece movement rules from YAML. | Haskell, DSL, game logic |
-| **Family Business Market Research** | City market research and competitive analysis for business expansion opportunities. | Strategy, business |
+| **Business Market Research** | City market research and competitive analysis for business expansion opportunities. | Strategy, business |
 
 ## GitHub Snapshot
 
