@@ -1,0 +1,80 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="360" fill="#05070D"/>
+
+  <defs>
+    <radialGradient id="starGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.32"/>
+      <stop offset="55%" stop-color="#FFFFFF" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="trace" x1="100" y1="300" x2="1040" y2="110" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#AEB4C2" stop-opacity="0.3"/>
+      <stop offset="55%" stop-color="#FFFFFF" stop-opacity="0.78"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <filter id="softGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <circle cx="112" cy="76" r="1.2" fill="#FFFFFF" opacity="0.42"/>
+  <circle cx="218" cy="142" r="1" fill="#FFFFFF" opacity="0.24"/>
+  <circle cx="354" cy="58" r="1.4" fill="#FFFFFF" opacity="0.34"/>
+  <circle cx="514" cy="96" r="1" fill="#FFFFFF" opacity="0.18"/>
+  <circle cx="650" cy="62" r="1.1" fill="#FFFFFF" opacity="0.26"/>
+  <circle cx="742" cy="132" r="1" fill="#FFFFFF" opacity="0.3"/>
+  <circle cx="906" cy="214" r="1.2" fill="#FFFFFF" opacity="0.22"/>
+  <circle cx="1084" cy="236" r="1" fill="#FFFFFF" opacity="0.32"/>
+  <circle cx="1138" cy="78" r="1.1" fill="#FFFFFF" opacity="0.22"/>
+
+  <text x="88" y="122" fill="#F5F5F5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="44" font-weight="700">
+    Chasing the Horizon
+  </text>
+  <text x="91" y="160" fill="#AEB4C2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="18" letter-spacing="1.5">
+    AI - SYSTEMS - PRODUCT - STRATEGY
+  </text>
+  <text x="91" y="194" fill="#AEB4C2" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="15" opacity="0.72">
+    mapping experiments, products, and systems toward useful intelligence
+  </text>
+
+  <path d="M70 310 C280 292, 420 318, 610 292 S900 270, 1130 286"
+        stroke="#FFFFFF" stroke-opacity="0.08" stroke-width="2"/>
+  <path d="M72 318 H1128" stroke="#FFFFFF" stroke-opacity="0.05" stroke-width="1"/>
+
+  <circle cx="100" cy="300" r="7" fill="#05070D" stroke="#FFFFFF" stroke-opacity="0.32" stroke-width="1.5"/>
+
+  <path id="journey-path"
+        d="M100 300 C260 250, 340 330, 500 240 S760 150, 1040 110"
+        stroke="#FFFFFF"
+        stroke-opacity="0.14"
+        stroke-width="2.5"
+        stroke-linecap="round"/>
+
+  <path d="M100 300 C260 250, 340 330, 500 240 S760 150, 1040 110"
+        stroke="url(#trace)"
+        stroke-width="3"
+        stroke-linecap="round"
+        stroke-dasharray="1000"
+        stroke-dashoffset="1000">
+    <animate attributeName="stroke-dashoffset" from="1000" to="0" dur="4s" begin="0.25s" fill="freeze"/>
+  </path>
+
+  <circle r="5" fill="#FFFFFF" opacity="0.95" filter="url(#softGlow)">
+    <animateMotion dur="4s" begin="0.25s" fill="freeze" rotate="auto">
+      <mpath href="#journey-path"/>
+    </animateMotion>
+  </circle>
+
+  <circle cx="1040" cy="110" r="34" fill="url(#starGlow)" opacity="0.5">
+    <animate attributeName="opacity" values="0.25;0.72;0.36" dur="2.4s" begin="4s" repeatCount="indefinite"/>
+  </circle>
+  <path d="M1040 78 L1048 102 L1073 110 L1048 118 L1040 142 L1032 118 L1007 110 L1032 102 Z"
+        fill="#FFFFFF" opacity="0.88" filter="url(#softGlow)">
+    <animate attributeName="opacity" values="0.72;1;0.72" dur="2.4s" begin="4s" repeatCount="indefinite"/>
+  </path>
+  <circle cx="1040" cy="110" r="3" fill="#05070D" opacity="0.58"/>
+</svg>
