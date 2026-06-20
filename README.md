@@ -19,7 +19,7 @@ My north star is contributing to AGI by building systems that are reliable, unde
 ## Current Direction
 
 - Connecting **AI research**, **software engineering**, **product strategy**, **business**, and **finance** into one long-term trajectory.
-- Working on **Klaussa** as one active coordinate: legal AI, retrieval, agentic workflows, evaluation, and product-facing AI reliability.
+- Working on **Klaussa.com** as one active coordinate: legal AI, retrieval, agentic workflows, evaluation, and product-facing AI reliability.
 - Turning coursework, competitions, and side projects into public artifacts that show how I think and build.
 - Keeping a personal portfolio as a living atlas of projects, experiments, reflections, and direction.
 
@@ -84,7 +84,7 @@ My north star is contributing to AGI by building systems that are reliable, unde
 | [**mini-search-engine**](https://github.com/nano141004/mini-search-engine) | Search engine built with indexing, compression, TF-IDF, BM25, WAND, LSI, and FAISS retrieval. | IR, search systems |
 | [**CustomChessKell**](https://github.com/nano141004/CustomChessKell) | Mini functional-programming chess engine built in Haskell with custom movement logic. | Haskell, DSL, game logic |
 | [**GameJam**](https://github.com/nano141004/GameJam) | Plaguewalker, an endless runner game inspired by the Google Dino game and built with Godot 4.3. | Godot, game dev |
-| [**nano141004.github.io**](https://github.com/nano141004/nano141004.github.io) | Responsive portfolio site for education, projects, skills, experience, and long-term direction. | Astro, portfolio, web |
+| [**marianosenduk.app**](https://marianosenduk.app) | Responsive portfolio site for education, projects, skills, experience, and long-term direction. | Astro, portfolio, web |
 
 ## Most Used Languages
 
@@ -97,7 +97,7 @@ My north star is contributing to AGI by building systems that are reliable, unde
 ## Find Me
 
 <p align="center">
-  <a href="https://nano141004.github.io/">
+  <a href="https://marianosenduk.app/">
     <img src="https://img.shields.io/badge/Portfolio-0B1220?style=for-the-badge&logo=githubpages&logoColor=F5F5F5" alt="Portfolio" />
   </a>
   <a href="https://github.com/nano141004">
