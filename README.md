@@ -6,7 +6,7 @@
 
 ### Chasing useful intelligence across AI, systems, product, and strategy.
 
-`Computer Science @ Universitas Indonesia` - `AI systems` - `Product engineering` - `Business strategy`
+`Computer Science @ Universitas Indonesia` - `AI research` - `AI systems` - `Product engineering` - `Business strategy`
 
 </div>
 
@@ -19,7 +19,8 @@ My north star is contributing to AGI by building systems that are reliable, unde
 ## Current Direction
 
 - Connecting **AI research**, **software engineering**, **product strategy**, **business**, and **finance** into one long-term trajectory.
-- Working on **Klaussa.com** as one active coordinate: legal AI, retrieval, agentic workflows, evaluation, and product-facing AI reliability.
+- Previously shipped legal AI products at **Klaussa.com** (Jan–Jul 2026): retrieval, agentic workflows, evaluation, content automation, and product-facing AI reliability.
+- Now researching explainable AI for Indonesian courts as a **Researcher Intern at LEXIN**, pairing LLM understanding with verifiable legal reasoning for my undergrad thesis.
 - Turning coursework, competitions, and side projects into public artifacts that show how I think and build.
 - Keeping a personal portfolio as a living atlas of projects, experiments, reflections, and direction.
 
@@ -27,9 +28,9 @@ My north star is contributing to AGI by building systems that are reliable, unde
 
 | Area | What I am exploring |
 |---|---|
-| **AI research** | Information retrieval, speech, computer vision, reinforcement learning, evaluation |
-| **Software systems** | Web apps, APIs, CLI tools, mobile clients, infrastructure, maintainable code |
-| **AI product** | RAG, legal AI, document workflows, user-facing AI reliability |
+| **AI research** | Information retrieval, speech, computer vision, reinforcement learning, legal NLP, neuro-symbolic AI, evaluation |
+| **Software systems** | Web apps, APIs, CLI tools, MCP servers, mobile clients, infrastructure, maintainable code |
+| **AI product** | RAG, legal AI, document workflows, content automation, user-facing AI reliability |
 | **Product / project management** | Scope, planning, stakeholder communication, delivery, user flows |
 | **Business / finance** | Forecasting, market research, dashboards, operations, strategic reasoning |
 | **Creative software** | Portfolio design, games, custom tools, interaction concepts |
@@ -79,11 +80,12 @@ My north star is contributing to AGI by building systems that are reliable, unde
 
 | Project | Description | Focus |
 |---|---|---|
-| [**virus-outbreak-modeling-rl**](https://github.com/nano141004/virus-outbreak-modeling-rl) | Multi-city epidemic control policy modeled as an MDP and solved with reinforcement learning. | RL, MDP, policy modeling |
+| [**virus-outbreak-modeling-rl**](https://github.com/nano141004/virus-outbreak-modeling-rl) | Four-city stochastic SEIRD Gymnasium environment with 5.3M intervention combinations; PPO achieved 50/50 outbreak eradication while retaining 44.65% budget. | RL, MDP, Gymnasium, policy evaluation |
 | [**exp-extend-list5**](https://github.com/nano141004/exp-extend-list5) | ListT5 inference extension on BEIR with grouping, candidate caching, and retrieval-quality analysis. | IR, reranking, evaluation |
 | [**mini-search-engine**](https://github.com/nano141004/mini-search-engine) | Search engine built with indexing, compression, TF-IDF, BM25, WAND, LSI, and FAISS retrieval. | IR, search systems |
 | [**CustomChessKell**](https://github.com/nano141004/CustomChessKell) | Mini functional-programming chess engine built in Haskell with custom movement logic. | Haskell, DSL, game logic |
 | [**GameJam**](https://github.com/nano141004/GameJam) | Plaguewalker, an endless runner game inspired by the Google Dino game and built with Godot 4.3. | Godot, game dev |
+| [**self-org**](https://github.com/nano141004/self-org) | Local-first second-brain engine (CLI + MCP server) classifying free-form captures into a self-growing wiki; 290 tests with hermetic isolation. | Python, MCP, LLM orchestration |
 | [**marianosenduk.app**](https://marianosenduk.app) | Responsive portfolio site for education, projects, skills, experience, and long-term direction. | Astro, portfolio, web |
 
 ## Most Used Languages
