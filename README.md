@@ -4,25 +4,43 @@
 
 # Mariano Gerardus Senduk
 
-### Chasing useful intelligence across AI, systems, product, and strategy.
+### AI research and product engineering, guided by a long-term interest in AGI.
 
-`Computer Science @ Universitas Indonesia` - `AI research` - `AI systems` - `Product engineering` - `Business strategy`
+`Computer Science @ Universitas Indonesia` - `AI research` - `Product engineering`
 
 </div>
 
 ---
 
-I am a Computer Science student at Universitas Indonesia, using projects as coordinates for a bigger direction: understanding how AI, software systems, product thinking, business, and self-development connect toward useful intelligence.
+I'm a Computer Science undergraduate at Universitas Indonesia. I'm interested in the foundations of intelligence and in building software that puts those ideas to use. My work spans research experiments and product engineering, with a growing interest in how AI can help people in their everyday workflows.
 
-My north star is contributing to AGI by building systems that are reliable, understandable, and actually useful for people.
+Contributing to AGI is my long-term direction. For now, that means learning how models behave, testing ideas carefully, and building systems people can use.
 
 ## Current Direction
 
-- Connecting **AI research**, **software engineering**, **product strategy**, **business**, and **finance** into one long-term trajectory.
-- Previously shipped legal AI products at **Klaussa.com** (Jan–Jul 2026): retrieval, agentic workflows, evaluation, content automation, and product-facing AI reliability.
-- Now researching explainable AI for Indonesian courts as a **Researcher Intern at LEXIN**, pairing LLM understanding with verifiable legal reasoning for my undergrad thesis.
-- Turning coursework, competitions, and side projects into public artifacts that show how I think and build.
-- Keeping a personal portfolio as a living atlas of projects, experiments, reflections, and direction.
+- **Researcher Intern at LEXIN, Universitas Indonesia (Aug 2026 - present):** my undergraduate thesis studies how LLMs can translate Indonesian judicial reasoning into symbolic representations while preserving the source meaning. I built a Python prototype for translation, validation, and reconstruction; semantic evaluation is ongoing.
+- Working across **AI research and engineering**, from reinforcement learning and multilingual retrieval to speech deepfake detection and time-series modeling.
+- Exploring product thinking, business, and finance alongside the technical work, and documenting projects at [marianosenduk.app](https://marianosenduk.app).
+
+## Product Engineering Experience
+
+**AI Product Engineer, Klaussa.com | Jan 2026 - Jul 2026**
+
+Worked with end-to-end ownership in a legal-tech startup, understanding user workflows and delivering features across AI, backend, data, and frontend systems.
+
+- Contributed to the early **LangGraph/LangChain** migration of the legal research assistant, including tool orchestration, search fallbacks, and document workflows.
+- Improved tabular review by generating missing columns for a document in **one structured LLM call** instead of separate calls per cell, then batching database updates.
+- Revamped React/TypeScript interfaces across search, review, translation, summaries, contract tracking, and tabular review; changed document-review responses to incremental **SSE streaming**.
+- Built workspace, subscription, and compliance-ticket features, plus a Python news-carousel pipeline with scheduled workers and human review.
+
+## Education and Volunteering
+
+**Bachelor of Computer Science, Universitas Indonesia | 2022 - Now**
+
+Coursework includes information retrieval, reinforcement learning, deep learning, speech processing, algorithms, and software engineering.
+
+- **UI Battlegrounds 2024, Backend Staff (Jul - Oct 2024):** worked in a team of three on the website backend using Spring Boot and Java; designed a UML class diagram.
+- **KMK Fasilkom UI, Human Resources Development Staff (Mar - Aug 2023):** kept members' birthday records and sent personalized greetings.
 
 ## Things I Build
 
@@ -80,12 +98,12 @@ My north star is contributing to AGI by building systems that are reliable, unde
 
 | Project | Description | Focus |
 |---|---|---|
-| [**virus-outbreak-modeling-rl**](https://github.com/nano141004/virus-outbreak-modeling-rl) | Four-city stochastic SEIRD Gymnasium environment with 5.3M intervention combinations; PPO achieved 50/50 outbreak eradication while retaining 44.65% budget. | RL, MDP, Gymnasium, policy evaluation |
-| [**exp-extend-list5**](https://github.com/nano141004/exp-extend-list5) | ListT5 inference extension on BEIR with grouping, candidate caching, and retrieval-quality analysis. | IR, reranking, evaluation |
-| [**mini-search-engine**](https://github.com/nano141004/mini-search-engine) | Search engine built with indexing, compression, TF-IDF, BM25, WAND, LSI, and FAISS retrieval. | IR, search systems |
+| [**Pandemic-response MDP and deep RL**](https://github.com/nano141004/virus-outbreak-modeling-rl) | Four-city stochastic SEIRD environment with a 22-dimensional state and 5.3M intervention combinations. Compared PPO, A2C, and a restricted DQN baseline; PPO's mean return was 32.36 ± 12.98 over 30 held-out simulation seeds. | RL, MDP, Gymnasium, policy evaluation |
+| [**ListT5 reranker extension**](https://github.com/nano141004/exp-extend-list5) | Inference-only study of candidate grouping and tournament caching across five BEIR datasets, keeping checkpoints fixed and measuring NDCG@10, model calls, and latency. | IR, reranking, experimental design |
+| [**Mini search engine**](https://github.com/nano141004/mini-search-engine) | Indexing and compressed postings, TF-IDF, BM25, WAND, LSI, and FAISS HNSW; evaluated on 30 annotated queries using RBP, NDCG, and Average Precision. | IR, search systems |
 | [**CustomChessKell**](https://github.com/nano141004/CustomChessKell) | Mini functional-programming chess engine built in Haskell with custom movement logic. | Haskell, DSL, game logic |
 | [**GameJam**](https://github.com/nano141004/GameJam) | Plaguewalker, an endless runner game inspired by the Google Dino game and built with Godot 4.3. | Godot, game dev |
-| [**self-org**](https://github.com/nano141004/self-org) | Local-first second-brain engine (CLI + MCP server) classifying free-form captures into a self-growing wiki; 290 tests with hermetic isolation. | Python, MCP, LLM orchestration |
+| [**self-org / pal (ongoing)**](https://github.com/nano141004/self-org) | Local-first personal knowledge tool with CLI and MCP interfaces, exploring how free-form captures can be organized into a Markdown knowledge base. | Python, MCP, LLM orchestration |
 | [**marianosenduk.app**](https://marianosenduk.app) | Responsive portfolio site for education, projects, skills, experience, and long-term direction. | Astro, portfolio, web |
 
 ## Most Used Languages
