@@ -28,19 +28,11 @@ Contributing to AGI is my long-term direction. For now, that means learning how 
 
 Worked with end-to-end ownership in a legal-tech startup, understanding user workflows and delivering features across AI, backend, data, and frontend systems.
 
-- Contributed to the early **LangGraph/LangChain** migration of the legal research assistant, including tool orchestration, search fallbacks, and document workflows.
-- Improved tabular review by generating missing columns for a document in **one structured LLM call** instead of separate calls per cell, then batching database updates.
-- Revamped React/TypeScript interfaces across search, review, translation, summaries, contract tracking, and tabular review; changed document-review responses to incremental **SSE streaming**.
-- Built workspace, subscription, and compliance-ticket features, plus a Python news-carousel pipeline with scheduled workers and human review.
-
-## Education and Volunteering
+## Education
 
 **Bachelor of Computer Science, Universitas Indonesia | 2022 - Now**
 
 Coursework includes information retrieval, reinforcement learning, deep learning, speech processing, algorithms, and software engineering.
-
-- **UI Battlegrounds 2024, Backend Staff (Jul - Oct 2024):** worked in a team of three on the website backend using Spring Boot and Java; designed a UML class diagram.
-- **KMK Fasilkom UI, Human Resources Development Staff (Mar - Aug 2023):** kept members' birthday records and sent personalized greetings.
 
 ## Things I Build
 
